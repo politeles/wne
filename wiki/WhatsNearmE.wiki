@@ -11,4 +11,12 @@ The main investigation lines of the proyect follows:
 
 = Details =
 
-This proyect comes from a previous research work (MJE) from Jose Enrique Pons Frías and Maria Jesús  Payo Laborda at [http://decsai.ugr.es DECSAI] in [http://www.ugr.es University of Granada.]
+This proyect comes from a previous research work (MJE) from [http://stupigenia.blogspot.com Jose Enrique Pons Frías]  and Maria Jesús  Payo Laborda at [http://decsai.ugr.es DECSAI] in [http://www.ugr.es University of Granada.] MJE was a flexible query system to locate restaurants near you.
+
+The following are the requeriments of the proyect:
+ * WNE will be implemented in [http;//android.google.com Android]
+ * WNE will locate the user with GPS equipment.
+ * WNE will access information throught internet and local database.
+
+The advances in proyect can ve viwed at [http://stupigenia.blogspot.com d.Pepe's blog]
+
