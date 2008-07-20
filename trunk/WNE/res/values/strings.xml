@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WNE</string>
+    <string name="title">Titulo</string>
+    <string name="body">Body</string>
+    <string name="confirm">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="newTag">Nuevo</string>	
+    <string name="userTagM">Precio barato</string>
+    <string name="userTagM1">Precio medio</string>
+    <string name="userTagM2">Precio caro</string>
+    <string name="userTagD1">Distancia cerca</string>
+    <string name="userTagD2">Distancia media</string>
+    <string name="userTagD3">Distancia lejos</string>
+    <string name="userTagList">Listado de Perfiles</string>
+    <string name="userTagActivate">Establecer perfil</string>
+    <string name="restaurant">Restaurante</string>
+    <string name="restaurantDs">Descripción</string>
+    <string name="restaurantDir">Dirección</string>
+    <string name="map">Ver Mapas</string>
+</resources>

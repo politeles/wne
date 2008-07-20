@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.android.wne">
+    <application android:icon="@drawable/icon">
+        <activity android:name=".wne" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    <activity android:name="UserTag" android:label="@string/app_name">
+</activity><activity android:name="UserTagList" android:label="@string/app_name" android:icon="@drawable/icon">
+</activity><activity android:label="@string/restaurant" android:name="Restaurant">
+</activity><activity android:label="@string/map" android:name="MapLocator">
+</activity></application>
+</manifest> 

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/restaurant" />
+		<EditText android:id="@+id/restaurant_name" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>	
+			</LinearLayout> 
+		<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/restaurantDs" />
+		<EditText android:id="@+id/restaurantDs" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>	
+			</LinearLayout> 	
+			<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/restaurantDir" />
+		<EditText android:id="@+id/restaurantDir" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>	
+			</LinearLayout>
+	<TableLayout android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:background="#000044">		
+		<TableRow>
+			<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/userTagM" />
+			<EditText android:id="@+id/restM" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/userTagM1" />
+			<EditText android:id="@+id/restM1" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/userTagM2" />
+			<EditText android:id="@+id/restM2" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+		</TableRow>
+		</TableLayout>
+	
+	
+</LinearLayout>

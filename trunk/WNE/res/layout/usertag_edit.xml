@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/title" />
+		<EditText android:id="@+id/title" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>	
+			</LinearLayout> 
+	
+	
+	<TableLayout android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:background="#000044">		
+		<TableRow>
+			<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/userTagM" />
+			<EditText android:id="@+id/userTagM" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/userTagM1" />
+			<EditText android:id="@+id/userTagM1" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/userTagM2" />
+			<EditText android:id="@+id/userTagM2" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/userTagD1" />
+			<EditText android:id="@+id/userTagD1" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/userTagD2" />
+			<EditText android:id="@+id/userTagD2" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="@string/userTagD3" />
+			<EditText android:id="@+id/userTagD3" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"/>
+		</TableRow>
+		<TableRow>
+			<Button android:id="@+id/confirm" 
+	  android:text="@string/confirm"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		</TableRow>
+	</TableLayout>
+</LinearLayout>
