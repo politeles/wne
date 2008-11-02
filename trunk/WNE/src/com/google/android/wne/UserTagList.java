@@ -7,6 +7,8 @@ package com.google.android.wne;
 
 
 
+import com.google.android.wne.dataAccess.DataAccess;
+
 import android.app.ListActivity;
 import android.content.Intent;
 import android.database.Cursor;

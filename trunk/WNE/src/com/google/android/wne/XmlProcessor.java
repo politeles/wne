@@ -7,6 +7,8 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.XMLReaderAdapter;
 
+import com.google.android.wne.dataAccess.DataAccess;
+
 /**
  * @author Jose Enrique
  * 

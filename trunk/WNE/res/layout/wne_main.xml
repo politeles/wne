@@ -21,6 +21,18 @@
 		android:layout_height="wrap_content" />
 		<Button android:id="@+id/maptag" 
 	  android:text="@string/map"
+	  android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		<Button android:id="@+id/putilla" 
+	  android:text="@string/xmlButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		<Button android:id="@+id/teta" 
+	  android:text="@string/dpp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+		<Button android:id="@+id/motorC" 
+	  android:text="@string/motorC"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content" />
 </LinearLayout>
