@@ -18,4 +18,35 @@
     <string name="restaurantDs">Descripción</string>
     <string name="restaurantDir">Dirección</string>
     <string name="map">Ver Mapas</string>
+    <string name="xmlButton">Cargar base de datos</string>
+    <string name="map_title">Simulador de caminos V1.0</string> 
+    <string name="map_menu_zoom_in">Zoom in (Tecla: I)</string> 
+    <string name="map_menu_zoom_out">Zoom out (Tecla: O)</string> 
+    <string name="map_menu_back_to_list">Volver a la lista</string> 
+    <string name="map_menu_toggle_street_satellite">Vista: Callejero / Satélite (Tecla: T)</string> 
+    <string name="map_overlay_own_name">Yo</string> 
+    <string name="dpp">Ver mapa</string> 
+    <string name="addPlace">Añadir lugar</string>
+    <string name="motorC">Motor consultas</string>  
+    <string name="map_menu_exit">Salir</string>
+    <string name="map_menu_satellite">Vista Satelite (S)</string>
+    <string name="map_menu_traffic">Vista Trafico (T)</string>
+    <string name="map_menu_set_point">Poner punto(P)</string>
+    <string name="map_menu_remove_point">Eliminar punto(R)</string>
+    <string name="map_menu_clear_points">Borrar todos los puntos (C)</string>
+    <string name="map_menu_providers">proveedores GPS</string>
+    <string name="map_menu_save_points">Guardar (X)</string>
+    <string name="map_menu_save_path">Guardar</string>
+    <string name="map_menu_load_path">Cargar</string>        
+    <string name="map_submenu_none">ninguna</string>
+
+    <string name="save_points_name">Guardar</string>
+    <string name="save_points_cmd_save">Guardar</string>
+    <string name="save_points_cmd_cancel">Cancelar</string>
+    <string name="save_points_default_step">20</string>
+    <string name="save_points_label1">Nombre Archivo:</string>
+    <string name="save_points_label2">Pasos (en microgrados):</string>
+    
+    <string name="save_path_name">Guardar</string>
+    <string name="load_path_name">Cargar</string>
 </resources>

@@ -9,6 +9,8 @@ package com.google.android.wne;
 
 
 
+import com.google.android.wne.dataAccess.DataAccess;
+
 import android.app.Activity;
 import android.content.ContentValues;
 import android.database.Cursor;
